@@ -1,0 +1,25 @@
+a.current{
+    color: #387ED7 !important;
+}
+.menu{
+    background-color: #0C131C !important;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        color: #387ED7 !important;
+    }
+    &__items{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
