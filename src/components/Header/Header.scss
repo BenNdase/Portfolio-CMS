@@ -1,5 +1,75 @@
 .header{
     width: 100%;
-    background-color: red;
-    height: 500px;
+    height: 90.2vh;
+    background-image: linear-gradient(rgba(12, 17, 22, 0.76), rgba(12, 17, 22, 0.76)),url("../../assets/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+
+    &__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icons{
+        .link_icon{
+            text-decoration: none !important;
+            color: #387ED7 !important;
+            .icon{
+                padding: 4%;
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    &__presentation{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -2%;
+        width: 80%;
+
+        h1{
+            font-size: 2.5rem;
+            @media only screen and (min-width: 320px) and (max-width: 1024px) {
+                font-size: 2rem;
+            }
+        }
+        p{
+            font-size: 1.2rem;
+            margin-top: -2%;
+        }
+    }
+
+    &__contact{
+        width: 50%;
+        text-align: center;
+        @media only screen and (min-width: 320px) and (max-width: 1024px) {
+            width: 90%;
+        }
+        .btn{
+            background-color: #387ED7;
+            margin: 1%;
+            text-transform: none;
+            &__contact{
+                background-color: rgb(212, 211, 211);
+                color: #387ED7 ;
+                font-weight: bold;
+                &:hover{
+                    background-color: #387ED7;
+                    color: white;
+                }
+            }
+            &__service{
+                &:hover{
+                    background-color: rgb(212, 211, 211);
+                    color: #387ED7 ;
+                }
+            }
+        }
+    }
 }
