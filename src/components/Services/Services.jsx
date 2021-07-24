@@ -1,7 +1,8 @@
 import "./Services.scss";
 import Card from "../Card/Card-Services/Card";
 import codeIcon from '@iconify-icons/fa-solid/code';
-
+import roundDesignServices from '@iconify-icons/ic/round-design-services';
+import desktopComputer from '@iconify-icons/emojione/desktop-computer';
 
 const Services = () => {
   return (
@@ -12,7 +13,9 @@ const Services = () => {
         <hr className="line-bottom" />
       </div>
       <div className="services__card">
-        <Card icon={codeIcon} />
+        <Card icon={codeIcon} title="Développement web" description="Création des sites web responsive" />
+        <Card icon={roundDesignServices} title="UI | UX Design" description="Creations des maquettes pour vos sites web" />
+        <Card icon={desktopComputer} title="Application desktop" description="Creations des maquettes pour vos sites web" />
       </div>
     </div>
   );

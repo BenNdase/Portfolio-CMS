@@ -1,10 +1,12 @@
 .card-services{
-    width: 10rem;
+    width: 21rem;
+    padding: 0 3%;
+    color: white;
     text-align: center;
-    border: white 2px solid;
     background: rgba(56, 126, 215, 0.07);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     .icon{
+        margin-top: 8%;
         color: #DDDDDD;
         font-size: 3rem;
     }
