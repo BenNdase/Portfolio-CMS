@@ -1,7 +1,68 @@
 .about{
+    width: 100%;
     background-color: #070A0F !important;
-    text-align: center;
-    h2{
-        color: #387ED7;
+    padding: 0.1%;
+
+    @media only screen and (min-width: 320px) and (max-width: 1024px) {
+        
+    }
+    &__title{
+        width: 10%;
+        margin: auto;
+        margin-top: 7%;
+        h2{
+            color: #387ED7;
+            font-size: 2rem;
+        }
+        hr{
+            width: 50%;
+            border: white 2px solid;
+        }
+        .line-top{
+            position: absolute;
+            margin-top: -0.5%;
+            width: 5% !important;
+        }
+        .line-bottom{
+            float: right;
+            margin-top: -13.5%;
+        }
+    }
+    &__presentation{
+        width: 90%;
+        color: white;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    &__description{
+        width: 80%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+
+        p{
+            width: 50%;
+            text-align: justify;
+            span{
+                display: block;
+                padding-top: 3%;
+            }
+        }
+
+        .logo{
+            width: 40%;
+
+            img{
+                width: 70%;
+                padding-top: 7%;
+
+            }
+        }
+    }
+    .button-container{
+        margin-top: 2%;
+        text-align: center;
     }
 }

@@ -5,7 +5,8 @@ import twitterSquareFilled from "@iconify-icons/ant-design/twitter-square-filled
 import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
 import instagramFilled from "@iconify-icons/ant-design/instagram-filled";
 import { Link } from "react-router-dom";
-import Button from "@material-ui/core/Button";
+import Button from "../Button/Button";
+
 
 const Header = () => {
   return (
@@ -30,12 +31,8 @@ const Header = () => {
           <p>Développeur web et web mobile full stack</p>
         </div>
         <div className="header__contact">
-          <Button className="btn btn__service" variant="contained" color="primary" href="#contained-buttons">
-            Mes services
-          </Button>
-          <Button className="btn btn__contact" variant="contained" color="primary" href="#contained-buttons">
-            Me contacter
-          </Button>
+          <Button text="Mes services" color="blue" />
+          <Button text="Me contacter" color="white" />
         </div>
       </div>
     </div>
