@@ -10,7 +10,6 @@ const Services = () => {
       <div className="services__title">
         <hr className="line-top" />
         <h2>Mes services</h2>
-        <hr className="line-bottom" />
       </div>
       <div className="services__card">
         <Card icon={codeIcon} title="Développement web" description="Création des sites web responsive" />

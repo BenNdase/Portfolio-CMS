@@ -8,7 +8,6 @@ const About = () => {
       <div className="about__title">
         <hr className="line-top" />
         <h2>A propos</h2>
-        <hr className="line-bottom" />
       </div>
       <p className="about__presentation">
         Je suis un développeur web et web mobile full stack

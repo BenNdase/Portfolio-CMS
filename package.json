@@ -44,6 +44,9 @@
     "@iconify-icons/emojione": "^1.1.0",
     "@iconify-icons/fa-solid": "^1.1.1",
     "@iconify-icons/ic": "^1.1.7",
+    "@iconify-icons/logos": "^1.1.10",
+    "@iconify-icons/simple-icons": "^1.1.34",
+    "@iconify-icons/vscode-icons": "^1.1.5",
     "@iconify/react": "^1.1.4"
   }
 }
