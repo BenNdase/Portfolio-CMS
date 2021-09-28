@@ -1,0 +1,70 @@
+.contact{
+    width: 100%;
+    background-color: #070A0F !important;
+    padding: 0.5% 0 2% 0;
+    color: white;
+
+    &__title{
+        margin: 0 auto !important;
+        margin-top: 7%;
+        width: 20%;
+        h2{
+            color: #387ED7;
+            font-size: 2rem;
+        }
+        hr{
+            width: 50%;
+            border: white 2px solid;
+        }
+        .line-top{
+            position: absolute;
+            margin-top: -0.5%;
+            width: 5% !important;
+        }
+    }
+    &__description{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        div{
+            width: 50%;
+            .icon__contact{
+                font-size: 20px;
+            }
+            p{
+                display: flex;
+                align-items: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin-left: 10px;
+                }
+                span{
+                    margin-left: 10px;
+                }
+            }
+            div{
+                width: 70%;
+                text-align: justify;
+
+                p{
+                    .icon{
+                        padding-left: 10px;
+                        font-size: 3.5rem;
+                        color: #387ED7 !important;
+                    }
+                }   
+            }
+        }
+    }
+    &__message{
+        p{
+            .textfield{
+                color: white !important;
+            }       
+        }
+    }
+}

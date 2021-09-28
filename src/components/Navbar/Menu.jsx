@@ -29,12 +29,6 @@ export default function ButtonAppBar() {
             <NavLink exact activeClassName="current" to="/a-propos">
               A propos
             </NavLink>
-            <NavLink exact activeClassName="current" to="/services">
-              Services
-            </NavLink>
-            <NavLink exact activeClassName="current" to="/competenes">
-              Compétences
-            </NavLink>
             <NavLink exact activeClassName="current" to="/projets">
               Project
             </NavLink>

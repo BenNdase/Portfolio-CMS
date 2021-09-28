@@ -1,0 +1,31 @@
+.card-project{
+    width: 21rem;
+    height: 13.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2%;
+
+    & img{
+        width: 100%;
+        transition: all 0.4s linear;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__description{
+        background-color: #0c131ce5;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+    }
+    .icon{
+        margin-top: 8%;
+        color: #DDDDDD;
+        font-size: 3rem;
+    }
+}

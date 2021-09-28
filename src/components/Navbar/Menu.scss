@@ -3,6 +3,7 @@ a.current{
 }
 .menu{
     background-color: #0C131C !important;
+    padding: 0 3rem 0 3rem;
     
     &__container{
         display: flex;
@@ -13,7 +14,7 @@ a.current{
         color: #387ED7 !important;
     }
     &__items{
-        width: 40%;
+        width: 30%;
         display: flex;
         justify-content: space-between;
         align-items: center;
