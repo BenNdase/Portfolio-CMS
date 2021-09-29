@@ -2,6 +2,10 @@ import "./Contact.scss";
 import { Icon } from "@iconify/react";
 import gmailIcon from '@iconify/icons-mdi/gmail';
 import bxsPhone from '@iconify/icons-bx/bxs-phone';
+import facebookFilled from "@iconify-icons/ant-design/facebook-filled";
+import twitterSquareFilled from "@iconify-icons/ant-design/twitter-square-filled";
+import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
+import instagramFilled from "@iconify-icons/ant-design/instagram-filled";
 import geoAltFill from '@iconify/icons-bi/geo-alt-fill';
 
 import ButtonMailto from "./Link";
@@ -34,17 +38,17 @@ const Contact = () => {
             <Icon icon={geoAltFill} className="icon__contact" />
             <span>Camp1 35, Livulu, Lemba, Kinshasa</span>
           </p>
-          <div>
+          <div className="contact__sociaux">
             <p>
               Rétrouvez-moi sur les réseaux sociaux, je répond plus rapidement
               aux messages et mails.
             </p>
-            {/* <p>
+            <p>
               <Icon icon={facebookFilled} className="icon" />
               <Icon icon={twitterSquareFilled} className="icon" />
               <Icon icon={linkedinFilled} className="icon" />
               <Icon icon={instagramFilled} className="icon" />
-            </p> */}
+            </p>
           </div>
         </div>
 

@@ -21,6 +21,10 @@
             margin-top: -0.5%;
             width: 5% !important;
         }
+        @media only screen and (max-width: 768px) {
+            width: 65%;
+            margin: auto;
+        }
     }
     &__description{
         width: 80%;
@@ -29,14 +33,23 @@
         justify-content: space-between;
         flex-wrap: wrap;
 
+        @media only screen and (max-width: 768px) {
+            width: 90%;
+            flex-direction: column;
+        }
+
         div{
             width: 50%;
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+            }
             .icon__contact{
                 font-size: 20px;
             }
             p{
                 display: flex;
                 align-items: center;
+
                 a{
                     text-decoration: none;
                     color: white;
@@ -49,6 +62,9 @@
             div{
                 width: 70%;
                 text-align: justify;
+                @media only screen and (max-width: 768px) {
+                    width: 90%;
+                }
 
                 p{
                     .icon{
@@ -57,6 +73,18 @@
                         color: #387ED7 !important;
                     }
                 }   
+            }
+        }
+    }
+    &__sociaux{
+        @media only screen and (max-width: 768px) {
+            width: 100% !important;
+
+            p{
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
