@@ -3,10 +3,7 @@ import { Icon } from "@iconify/react";
 import gmailIcon from '@iconify/icons-mdi/gmail';
 import bxsPhone from '@iconify/icons-bx/bxs-phone';
 import geoAltFill from '@iconify/icons-bi/geo-alt-fill';
-import facebookFilled from "@iconify-icons/ant-design/facebook-filled";
-import twitterSquareFilled from "@iconify-icons/ant-design/twitter-square-filled";
-import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
-import instagramFilled from "@iconify-icons/ant-design/instagram-filled";
+
 import ButtonMailto from "./Link";
 import Form from "../Form/Form";
 
