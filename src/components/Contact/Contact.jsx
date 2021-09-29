@@ -1,6 +1,6 @@
 import "./Contact.scss";
 import { Icon } from "@iconify/react";
-import baselineEmail from "@iconify/icons-ic/baseline-email";
+import gmailIcon from '@iconify/icons-mdi/gmail';
 import phoneHandsetSolid from "@iconify/icons-clarity/phone-handset-solid";
 import googlemapsIcon from "@iconify/icons-simple-icons/googlemaps";
 import facebookFilled from "@iconify-icons/ant-design/facebook-filled";
@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="contact__description">
         <div>
           <p>
-            <Icon icon={baselineEmail} className="icon__contact" />
+            <Icon icon={gmailIcon} className="icon__contact" />
             <ButtonMailto
               label="benjamin1tondase211@gmail.com"
               mailto="mailto:benjamin1tondase211@gmail.com"
