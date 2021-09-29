@@ -24,6 +24,10 @@
             float: right;
             margin-top: -13.5%;
         }
+        @media only screen and (max-width: 768px) {
+            width: 60%;
+            margin-top: 50px;
+        }
     }
     &__card{
         width: 80%;
@@ -32,9 +36,10 @@
         display: flex;
         justify-content: space-between;
 
-        @media only screen and (min-width: 320px) and (max-width: 1024px) {
-            display: flex;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
             flex-direction: column;
+            margin-bottom: 20px;
         }
     }
 }

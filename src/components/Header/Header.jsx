@@ -31,8 +31,8 @@ const Header = () => {
           <p>Développeur web et web mobile full stack</p>
         </div>
         <div className="header__contact">
-          <Button text="Mes services" color="blue" />
-          <Button text="Me contacter" color="white" />
+          <Button text="Mes services" color="blue" className="button" />
+          <Button text="Me contacter" color="white" className="button" />
         </div>
       </div>
     </div>
