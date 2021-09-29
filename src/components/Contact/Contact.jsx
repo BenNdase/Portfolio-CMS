@@ -42,12 +42,12 @@ const Contact = () => {
               Rétrouvez-moi sur les réseaux sociaux, je répond plus rapidement
               aux messages et mails.
             </p>
-            <p>
+            {/* <p>
               <Icon icon={facebookFilled} className="icon" />
               <Icon icon={twitterSquareFilled} className="icon" />
               <Icon icon={linkedinFilled} className="icon" />
               <Icon icon={instagramFilled} className="icon" />
-            </p>
+            </p> */}
           </div>
         </div>
 
