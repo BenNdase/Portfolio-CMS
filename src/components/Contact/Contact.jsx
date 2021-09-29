@@ -1,8 +1,8 @@
 import "./Contact.scss";
 import { Icon } from "@iconify/react";
 import gmailIcon from '@iconify/icons-mdi/gmail';
-import phoneHandsetSolid from "@iconify/icons-clarity/phone-handset-solid";
-import googlemapsIcon from "@iconify/icons-simple-icons/googlemaps";
+import bxsPhone from '@iconify/icons-bx/bxs-phone';
+import geoAltFill from '@iconify/icons-bi/geo-alt-fill';
 import facebookFilled from "@iconify-icons/ant-design/facebook-filled";
 import twitterSquareFilled from "@iconify-icons/ant-design/twitter-square-filled";
 import linkedinFilled from "@iconify-icons/ant-design/linkedin-filled";
@@ -27,14 +27,14 @@ const Contact = () => {
             />
           </p>
           <p>
-            <Icon icon={phoneHandsetSolid} className="icon__contact" />
+            <Icon icon={bxsPhone} className="icon__contact" />
             <ButtonMailto
               label="+243 89 263 26 11"
               mailto="tel:+243892632611"
             />
           </p>
           <p>
-            <Icon icon={googlemapsIcon} className="icon__contact" />
+            <Icon icon={geoAltFill} className="icon__contact" />
             <span>Camp1 35, Livulu, Lemba, Kinshasa</span>
           </p>
           <div>
