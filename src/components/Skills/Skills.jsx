@@ -1,15 +1,5 @@
 import "./Skills.scss";
 import { Icon } from "@iconify/react";
-import reactIcon from '@iconify-icons/logos/react';
-import javascriptIcon from "@iconify-icons/logos/javascript";
-import sassIcon from "@iconify-icons/logos/sass";
-import wordpressIcon from '@iconify-icons/logos/wordpress-icon';
-import graphqlIcon from '@iconify-icons/logos/graphql';
-import nodejsIcon from '@iconify-icons/logos/nodejs-icon';
-import mysqlIcon from '@iconify-icons/logos/mysql';
-import mongodbIcon from '@iconify-icons/simple-icons/mongodb';
-import typescriptIcon from '@iconify-icons/logos/typescript-icon';
-import figmaIcon from '@iconify-icons/logos/figma';
 
 const Skills = () => {
   return (
@@ -58,44 +48,37 @@ const Skills = () => {
           <h3>Technologies</h3>
           <div className="skills__icons">
             <div className="container__icon">
-              <Icon icon={javascriptIcon} className="icon" />
+              <Icon icon="logos:javascript" className="icon" />
               <span>JavaScript</span>
             </div>
             <div className="container__icon">
-              <Icon icon={reactIcon} className="icon" />
+              <Icon icon="vscode-icons:file-type-reactjs" className="icon" />
               <span>React Js</span>
             </div>
             <div className="container__icon">
-              <Icon icon={sassIcon} className="icon" />
+              <Icon icon="vscode-icons:file-type-sass" className="icon" />
               <span>Sass</span>
             </div>
             <div className="container__icon">
-              <Icon icon={graphqlIcon} className="icon" />
-              <span>GraphQL</span>
-            </div>
-            <div className="container__icon">
-              <Icon icon={wordpressIcon} className="icon" />
-              <span>Wordpress</span>
-            </div>
-            <div className="container__icon">
-              <Icon icon={nodejsIcon} className="icon" />
+              <Icon icon="logos:nodejs-icon" className="icon" />
               <span>NodeJS</span>
             </div>
             <div className="container__icon">
-              <Icon icon={mysqlIcon} className="icon" />
+              <Icon icon="logos:mysql" className="icon" />
               <span>MySQL</span>
             </div>
             <div className="container__icon">
-              <Icon icon={mongodbIcon} className="icon" />
+              <Icon icon="bxl:mongodb" color="#12e643" className="icon" />
               <span>MongoDB</span>
             </div>
             <div className="container__icon">
-              <Icon icon={typescriptIcon} className="icon" />
-              <span>TypeScript</span>
+              <Icon icon="logos:figma" className="icon" />
+              <br />
+              <span>Figma</span>
             </div>
             <div className="container__icon">
-              <Icon icon={figmaIcon} className="icon" /><br />
-              <span>Figma</span>
+              <Icon icon="logos:strapi-icon" className="icon" />
+              <span>Strapi</span>
             </div>
           </div>
         </div>

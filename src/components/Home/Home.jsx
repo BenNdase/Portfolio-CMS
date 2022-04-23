@@ -6,15 +6,15 @@ import Projects from "../Project/Project";
 import Contact from "../Contact/Contact";
 
 const Home = () => {
-    return(
-        <div>
-            <Header />
-            <About />
-            <Services />
-            <Skills />
-            <Projects />
-            <Contact />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <About />
+      <Services />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
+  );
+};
 export default Home;
