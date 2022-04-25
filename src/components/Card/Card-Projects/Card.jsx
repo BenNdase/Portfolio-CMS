@@ -17,7 +17,9 @@ export default function RecipeReviewCard({
   title,
   technologies,
   link,
+  slug,
 }) {
+  let tailleSlug;
   return (
     <Card sx={{ maxWidth: 345 }} className="card-project">
       <CardHeader
@@ -32,9 +34,7 @@ export default function RecipeReviewCard({
       <CardMedia component="img" height="194" image={image} alt="Paella dish" />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          {tailleSlug <= 100 ? slug : slug.substr(0, 130) + "..."}
         </Typography>
       </CardContent>
       <CardActions disableSpacing className="actions">

@@ -37,11 +37,14 @@ const Projects = () => {
                 avatar={project.logo.url}
                 technologies={project.technologies}
                 link={project.liens}
+                slug={project.description}
               />
             ))}
           </>
         ) : (
           <>
+            <SkeletonFacebook />
+            <SkeletonFacebook />
             <SkeletonFacebook />
           </>
         )}
