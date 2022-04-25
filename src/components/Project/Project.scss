@@ -1,38 +1,35 @@
-.projects{
-    width: 100%;
-    background-color: #070A0F !important;
-    padding: 0.5% 0 2% 0;
+.projects {
+  width: 100%;
+  background-color: #070a0f !important;
+  padding: 0.5% 0 2% 0;
 
-    &__title{
-        margin: 0 auto !important;
-        margin-top: 7%;
-        width: 15%;
-        h2{
-            color: #387ED7;
-            font-size: 2rem;
-        }
-        hr{
-            width: 50%;
-            border: white 2px solid;
-        }
-        .line-top{
-            position: absolute;
-            margin-top: -0.5%;
-            width: 5% !important;
-        }
-        @media only screen and (max-width: 768px) {
-            width: 55%;
-        }
+  &__title {
+    margin: 0 auto !important;
+    margin-top: 7%;
+    width: max-content;
+    h2 {
+      color: #387ed7;
+      font-size: 2rem;
     }
-    &__card{
-        width: 80%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    hr {
+      width: 50%;
+      border: white 2px solid;
+    }
+    .line-top {
+      position: absolute;
+      margin-top: -0.5%;
+      width: 5% !important;
+    }
+  }
+  &__card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-        @media only screen and (max-width: 768px) {
-            width: 90%;
-        }
+    @media only screen and (max-width: 768px) {
+      width: 90%;
     }
+  }
 }

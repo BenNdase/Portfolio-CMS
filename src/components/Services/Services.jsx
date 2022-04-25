@@ -6,16 +6,28 @@ import Card from "../Card/Card-Services/Card";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="services__title">
         <hr className="line-top" />
         <h2>Mes services</h2>
       </div>
-      {/* <div className="services__card">
-        <Card icon={codeIcon} title="Développement web" description="Création des sites web responsive" />
-        <Card icon={roundDesignServices} title="UI | UX Design" description="Creations des maquettes pour vos sites web" />
-        <Card icon={desktopComputer} title="Application desktop" description="Creations des maquettes pour vos sites web" />
-      </div> */}
+      <div className="services__card">
+        <Card
+          icon="entypo:code"
+          title="Développement web"
+          description="Création des sites web responsive"
+        />
+        <Card
+          icon="ic:sharp-design-services"
+          title="UI | UX Design"
+          description="Creations des maquettes pour vos sites web"
+        />
+        <Card
+          icon="akar-icons:desktop-device"
+          title="Application desktop"
+          description="Creations des maquettes pour vos sites web"
+        />
+      </div>
     </div>
   );
 };

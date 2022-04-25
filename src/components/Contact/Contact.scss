@@ -1,98 +1,99 @@
-.contact{
-    width: 100%;
-    background-color: #070A0F !important;
-    padding: 0.5% 0 2% 0;
-    color: white;
+.contact {
+  width: 100%;
+  background-color: #070a0f !important;
+  padding: 0.5% 0 2% 0;
+  color: white;
 
-    &__title{
-        margin: 0 auto !important;
-        margin-top: 7%;
-        width: 20%;
-        h2{
-            color: #387ED7;
-            font-size: 2rem;
-        }
-        hr{
-            width: 50%;
-            border: white 2px solid;
-        }
-        .line-top{
-            position: absolute;
-            margin-top: -0.5%;
-            width: 5% !important;
-        }
-        @media only screen and (max-width: 768px) {
-            width: 65%;
-            margin: auto;
-        }
+  &__title {
+    margin: 0 auto !important;
+    margin-top: 7%;
+    width: 20%;
+    h2 {
+      color: #387ed7;
+      font-size: 2rem;
     }
-    &__description{
-        width: 80%;
-        margin: auto;
+    hr {
+      width: 50%;
+      border: white 2px solid;
+    }
+    .line-top {
+      position: absolute;
+      margin-top: -0.5%;
+      width: 5% !important;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 65%;
+      margin: auto;
+    }
+  }
+  &__description {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: 768px) {
+      width: 90%;
+      flex-direction: column;
+    }
+
+    div {
+      width: 50%;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+      .icon__contact {
+        font-size: 20px;
+      }
+      p {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        align-items: center;
 
-        @media only screen and (max-width: 768px) {
-            width: 90%;
-            flex-direction: column;
+        a {
+          text-decoration: none;
+          color: white;
+          margin-left: 10px;
         }
+        span {
+          margin-left: 10px;
+        }
+      }
+      .contact__sociaux {
+        width: max-content;
+        text-align: justify;
 
-        div{
-            width: 50%;
+        div {
+          .icon {
+            padding-right: 10px;
+            font-size: 3.5rem;
+            color: #387ed7 !important;
+
             @media only screen and (max-width: 768px) {
-                width: 100%;
+              text-align: center;
             }
-            .icon__contact{
-                font-size: 20px;
-            }
-            p{
-                display: flex;
-                align-items: center;
-
-                a{
-                    text-decoration: none;
-                    color: white;
-                    margin-left: 10px;
-                }
-                span{
-                    margin-left: 10px;
-                }
-            }
-            div{
-                width: 70%;
-                text-align: justify;
-                @media only screen and (max-width: 768px) {
-                    width: 90%;
-                }
-
-                p{
-                    .icon{
-                        padding-left: 10px;
-                        font-size: 3.5rem;
-                        color: #387ED7 !important;
-                    }
-                }   
-            }
+          }
         }
+      }
     }
-    &__sociaux{
-        @media only screen and (max-width: 768px) {
-            width: 100% !important;
+  }
+  &__sociaux {
+    @media only screen and (max-width: 768px) {
+      width: 100% !important;
 
-            p{
-                text-align: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        }
+      p {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
-    &__message{
-        p{
-            .textfield{
-                color: white !important;
-            }       
-        }
+  }
+  &__message {
+    p {
+      .textfield {
+        color: white !important;
+      }
     }
+  }
 }

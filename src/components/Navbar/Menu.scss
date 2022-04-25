@@ -1,52 +1,52 @@
-a.current{
-    color: #387ED7 !important;
+a.current {
+  color: #387ed7 !important;
 }
-.menu{
-    background-color: #0C131C !important;
-    padding: 0 3rem 0 3rem;
-    
-    &__container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__title{
-        color: #387ED7 !important;
-    }
-    &__items{
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    a{
-        color: white;
-        font-weight: bold;
-        font-size: 0.9rem !important;
-        text-decoration: none;
+.menu {
+  background-color: #0c131c !important;
+  padding: 0 3rem 0 3rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    color: #387ed7 !important;
+  }
+  &__items {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem !important;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 0.5rem 0 0.5rem;
+
+    &__title {
+      font-weight: bold !important;
     }
 
-    @media only screen and (max-width: 768px) {
-        padding: 0 0.5rem 0 0.5rem;
+    &__items {
+      width: 40%;
+      flex-direction: column;
+      position: absolute;
+      top: 3rem;
+      right: 0px;
+      margin-right: -10px;
+      background-color: #0c131c !important;
+      display: none;
 
-        &__title{
-            font-weight: bold !important;
-        }
-
-        &__items{
-            width: 40%;
-            flex-direction: column;
-            position: absolute;
-            top: 3rem;
-            right: 0px;
-            margin-right: -10px;
-            background-color: #0c131c !important;
-            display: none;
-
-            a{
-                margin: 15px;
-                z-index: 999;
-            }
-        }
+      a {
+        margin: 15px;
+        z-index: 999;
+      }
     }
+  }
 }

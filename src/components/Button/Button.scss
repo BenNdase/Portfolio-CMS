@@ -1,21 +1,8 @@
-.btn{
-    background-color: #387ED7 !important;
-    margin: 1%;
-    text-transform: none !important;
-    margin: auto;
+.btn {
+  background-color: #387ed7 !important;
+  padding: 0.5rem 1rem !important;
 }
-.white{
-    background-color: rgb(212, 211, 211) !important;
-    color: #387ED7 !important;
-    font-weight: bold;
-    &:hover{
-        background-color: #387ED7 !important;
-        color: white !important;
-    }
-}
-.blue{
-    &:hover{
-        background-color: rgb(212, 211, 211) !important;
-        color: #387ED7 !important;
-    }
+.white {
+  background-color: rgb(212, 211, 211) !important;
+  color: #387ed7 !important;
 }

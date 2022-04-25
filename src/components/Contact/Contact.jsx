@@ -3,10 +3,11 @@ import { Icon } from "@iconify/react";
 
 import ButtonMailto from "./Link";
 import Form from "../Form/Form";
+import { Link } from "@mui/material";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact__title">
         <hr className="line-top" />
         <h2>Me contacter</h2>
@@ -36,9 +37,26 @@ const Contact = () => {
               Rétrouvez-moi sur les réseaux sociaux, je répond plus rapidement
               aux messages et mails.
             </p>
-            <p>
-              <Icon icon="ant-design:facebook-filled" className="icon" />
-            </p>
+            <div>
+              <Link href="#" target="_blank">
+                <Icon icon="bxl:facebook-square" className="icon" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/benjamin-tondase-681111213/"
+                target="_blank"
+              >
+                <Icon icon="carbon:logo-linkedin" className="icon" />
+              </Link>
+              <Link href="#" target="_blank">
+                <Icon
+                  icon="ant-design:twitter-square-filled"
+                  className="icon"
+                />
+              </Link>
+              <Link href="https://github.com/BenNdase" target="_blank">
+                <Icon icon="fa6-brands:github-square" className="icon" />
+              </Link>
+            </div>
           </div>
         </div>
 

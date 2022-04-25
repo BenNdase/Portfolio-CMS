@@ -9,25 +9,21 @@ const About = () => {
         <hr className="line-top" />
         <h2>A propos</h2>
       </div>
-      <p className="about__presentation">
-        Je suis un développeur web et web mobile full stack
-      </p>
       <div className="about__description">
         <p>
           <span>
-            Ma passion pour le développement web commence en 2019 et m'a demandé
-            un changement radical de cursus afin de pouvoir pleinement
-            l'exploiter.
+            Je suis un développeur full-stack capable de construire des
+            applications web, mobile et desktop.
           </span>
           <span>
-            Dès lors, je mis tout en oeuvre pour percer dans cette voie, tout en
-            prenant du plaisir sur les divers projets développés.
+            Ma passion pour le développement web commence en 2019 et dès lors,
+            j'ai mis tout en oeuvre pour percer dans cette voie, tout en prenant
+            du plaisir sur les divers projets développés.
           </span>
           <span>
-            En Mai 2009, je décide de devenir développeur web indépendant après
-            plusieurs postes en tant que développeur web « full-stack » réussis,
-            qui me conforteront dans cette idée afin de toucher un plus large
-            panel de domaines d'activités, voir du pays et conquérir le monde !
+            En Février 2021, je décide de suivre une formation qui va me booster
+            dans le développement web et mobile, et aussi dans le maquettage des
+            applications.
           </span>
         </p>
         <div className="logo">
